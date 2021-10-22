@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+<plot>
+    <choice>
+        <id>0</id>
+        <location>bank-entrance.png</location>
+        <squid />
+        <dialogue>
+            Words.
+            More words.
+        </dialogue>
+        <location>inside-bank.png</location>
+        <squid />
+        <dialogue>
+            Words but inside.
+            More words inside.
+        </dialogue>
+        <options>
+            <option>
+                <description>Reflect on your goals for today.</description>
+                <to-id>1</to-id>
+            </option>
+            <option>
+                <description>Eat a snack while you wait.</description>
+                <to-id>2</to-id>
+            </option>
+        </options>
+    </choice>
+    <choice>
+        <id>1</id>
+        <location>inside-bank.png</location>
+        <squid>squid-right.png</squid>
+        <dialogue>
+            Squid arrives.
+            Doesn't say anything because it's a squid.
+        </dialogue>
+        <options>
+            <option>
+                <description>Reflect even more intensely on your goals.</description>
+                <to-id>3</to-id>
+            </option>
+            <option>
+                <description>Greet the squid.</description>
+                <to-id>4</to-id>
+            </option>
+        </options>
+    </choice>
+    <choice>
+        <id>2</id>
+        <location>squid-snack.png</location>
+        <squid />
+        <dialogue>
+            Eat squid.
+            Mention family business.
+        </dialogue>
+        <location>inside-bank.png</location>
+        <squid>squid-excited-right.png</squid>
+        <dialogue>
+            Squid arrives.
+            It looks pretty shocked.
+        </dialogue>
+        <options>
+            <option>
+                <description>Shove your snacks away and pretend you weren't just eating squid.</description>
+                <to-id>5</to-id>
+            </option>
+            <option>
+                <description>Continue eating squids in front of this squid.</description>
+                <to-id>6</to-id>
+            </option>
+        </options>
+    </choice>
+    <choice>
+        <id>3</id>
+        <location />
+        <squid />
+        <dialogue>
+            Time and space seems to fade away.
+            Question if business is actually what you want.
+        </dialogue>
+        <location>bob-ross.png</location>
+        <squid />
+        <dialogue>
+            Bob Ross ending.
+            End
+        </dialogue>
+    </choice>
+    <choice>
+        <id>4</id>
+        <location>inside-bank.png</location>
+        <squid>squid-left.png</squid>
+        <dialogue>
+            Squid looks professional.
+            Doesn't say anything because it's a squid.
+        </dialogue>
+        <options>
+            <option>
+                <description>Stick to your script.</description>
+                <to-id>7</to-id>
+            </option>
+            <option>
+                <description>Passionately share your backstory.</description>
+                <to-id>8</to-id>
+            </option>
+        </options>
+    </choice>
+    <choice>
+        <id>5</id>
+        <location>inside-bank.png</location>
+        <squid>squid-angry-right.png</squid>
+        <dialogue>
+            The damage is kind of already done. Remember?
+            The squid looks pretty mad.
+        </dialogue>
+        <options>
+            <option>
+                <description>Flip the table and run away while the squid's distracted.</description>
+                <to-id>9</to-id>
+            </option>
+            <option>
+                <description>Try to salvage the rest of the discussion.</description>
+                <to-id>10</to-id>
+            </option>
+        </options>
+    </choice>
+    <choice>
+        <id>6</id>
+        <location>inside-bank.png</location>
+        <squid>squid-sad-right.png</squid>
+        <dialogue>
+            Did you know giant squids can cry?
+            They don't normally, but apparently you just made one sob.
+        </dialogue>
+        <location>greece.png</location>
+        <squid>squid-sad-left.png</squid>
+        <dialogue>
+            Squid leaves to mourn.
+            It's a really rough time for it.
+        </dialogue>
+        <location>greece.png</location>
+        <squid>squid-left.png</squid>
+        <dialogue>
+            Eventually writes a book.
+            Wins Nobel Prize. End.
+        </dialogue>
+    </choice>
+    <choice>
+        <id>7</id>
+        <location>inside-bank.png</location>
+        <squid>squid-left.png</squid>
+        <dialogue>
+            You manage to do a solid job!
+            The squid approves you.
+        </dialogue>
+        <location>dollars.png</location>
+        <squid />
+        <dialogue>
+            You got a loan!
+            End.
+        </dialogue>
+    </choice>
+    <choice>
+        <id>8</id>
+        <location>inside-bank.png</location>
+        <squid>squid-excited-left.png</squid>
+        <dialogue>
+            The squid has been moved.
+            It seems very interested in your business.
+        </dialogue>
+        <options>
+            <option>
+                <description>Bring it back to your proposal.</description>
+                <to-id>11</to-id>
+            </option>
+            <option>
+                <description>Launch into your impassioned kelp farming speech you always have prepped.</description>
+                <to-id>12</to-id>
+            </option>
+        </options>
+    </choice>
+    <choice>
+        <id>9</id>
+        <location>inside-bank.png</location>
+        <squid />
+        <dialogue>
+            You throw the table.
+            uh. . . the squid is not moving.
+        </dialogue>
+        <location />
+        <squid />
+        <dialogue>
+            You run.
+            what have you done?
+        </dialogue>
+        <location>newspaper.png</location>
+        <squid />
+        <dialogue>
+            Trial finished.
+            End.
+        </dialogue>
+    </choice>
+    <choice>
+        <id>10</id>
+        <location />
+        <squid />
+        <dialogue>
+            Imagine the absolute worst situation.
+            You thought it would be spilling coffee on yourself.
+        </dialogue>
+        <location />
+        <squid>squid-angry-right.png</squid>
+        <dialogue>
+            Turns out it was a little worse.
+            The squid is really angry.
+        </dialogue>
+        <location>fire.png</location>
+        <squid>squid-angry-right.png</squid>
+        <dialogue>
+            Okay so it was a lot worse.
+            World End.
+        </dialogue>
+    </choice>
+    <choice>
+        <id>11</id>
+        <location>inside-bank.png</location>
+        <squid>squid-excited-right.png</squid>
+        <dialogue>
+            The squid is super impressed.
+            Is it grabbing its belongings??
+        </dialogue>
+        <location>stonks.png</location>
+        <squid />
+        <dialogue>
+            Business is successful
+            but that's not all.
+        </dialogue>
+        <location>sqonks.png</location>
+        <squid />
+        <dialogue>
+            Squid joins you!
+            Together you become even more successful.
+        </dialogue>
+        <location>squid-stonks.png</location>
+        <squid />
+        <dialogue>
+            Business partners
+            End
+        </dialogue>
+    </choice>
+    <choice>
+        <id>12</id>
+        <location>inside-bank.png</location>
+        <squid>squid-right.png</squid>
+        <dialogue>
+            Squid approves but seems very quiet.
+            Seems to be thinking things over.
+        </dialogue>
+        <location>prohibition.png</location>
+        <squid>squid-hat-left.png</squid>
+        <dialogue>
+            Mob ending.
+            End
+        </dialogue>
+    </choice>
+</plot>
